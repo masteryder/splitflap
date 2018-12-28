@@ -75,7 +75,7 @@ let curIndex = -1;
 let curText;
 let curEndText;
 
-let nbJumpIterations = 4;
+const nbJumpIterations = 4;
 let curDoneIterations = 0;
 
 
