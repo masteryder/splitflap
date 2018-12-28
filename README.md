@@ -14,5 +14,5 @@ If you go inside the splitflap.js file you'll find, amidst the lines of code, so
 
 `setTimeout(transitionTextTick, 60);` <- The time in ms between each iteration of the "flapping"
 
-`setTimeout(changeText,1500);` <- The time in ms a text stays put after the animation has been completed, increase to 
+`setTimeout(changeText,1500);` <- The time in ms a text stays put after the animation has been completed 
 
