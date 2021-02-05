@@ -1,0 +1,22 @@
+{
+  "name": "splitflap",
+  "version": "1.0.0",
+  "description": "A Split-Flap board like animation for your text.",
+  "main": "splitflap.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masteryder/splitflap.git"
+  },
+  "keywords": [
+    "text",
+    "animation",
+    "splitflap",
+    "split-flap"
+  ],
+  "author": "João Ventura <joao-ventura@outlook.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/masteryder/splitflap/issues"
+  },
+  "homepage": "https://github.com/masteryder/splitflap#readme"
+}
