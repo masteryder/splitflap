@@ -1,9 +1,33 @@
 # splitflap
-A cool and very lightweight Javascript "Split Flap" board-like animation for your text.
+A  pure Javascript "Split Flap" board-like animation for your text (with no dependencies).
 
 ![The split flap effect](https://media.giphy.com/media/2zdkWpVpljtrYqwvB0/giphy.gif)
 
+Provides a "splitflap" function that can be used on a dom element.
+
 Works best if you use mono-spaced fonts like the one used in the project.
+<br><br>
+### Parameters
+
+| parameter | type    | description                                      |
+| --------- | ------- | ------------------------------------------------ |
+| `domElement`     | DOM Element  | the DOM element that will be targeted for replacement        |
+| `texts`  | String[] | Array of texts we will cycle through          |
+| `options` | Object  | An object containing animation options                            |
+<br>
+
+### Options
+| option | type    | description                                      |
+| --------- | ------- | ------------------------------------------------ |
+| `timeOut`     | number  | the number of milliseconds the texts stays put after being animated        |
+| `tickTimeOut`  | number | the number of milliseconds for a character to transition into a different one           |
+| `nbJumpIterations` | number  | the number of characters that are skipped when going from a character to a different one
+## Defaults
+```
+timeOut : 2000
+tickTimeOut : 60
+nbJumpIterations : 4
+```
 
 ## Usage Example
 
@@ -26,6 +50,9 @@ splitFlap(domElement, example_texts, {
 });
 ```
 
-### Test the example
+### Quick test
 
-If you want to quickly test
+If you want to quickly test the example that is provided. You can host a local http server with:
+```python -m SimpleHTTPServer 8080``` (python 2)
+or
+```python3 -m http.server``` (python 3)
