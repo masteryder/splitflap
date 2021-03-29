@@ -3,6 +3,8 @@ A  pure Javascript "Split Flap" board-like animation for your text (with no depe
 
 ![The split flap effect](https://media.giphy.com/media/2zdkWpVpljtrYqwvB0/giphy.gif)
 
+See it in action at https://masteryder.github.io/splitflap/
+
 Provides a "splitflap" function that can be used on a dom element.
 
 Works best if you use mono-spaced fonts like the one used in the project.
